@@ -1,4 +1,6 @@
 # SchulprojektMitKerstin
 
-Marvin: Homepage, Kontaktpage
-Kerstin: Produktpage, Zahlungspage
+First Page = Anmeldepage
+Login:
+  User = testuser
+  Password = test123
