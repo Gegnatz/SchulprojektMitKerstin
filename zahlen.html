@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheet-produktpage.css">
+		<meta charset="UTF-8">
+		<meta name="anzeige" content="width=device-width, initial-scale=1.0">
+		<title>Zahlungsseite</title>
+	</head>
+	<body>
+		<h1>Ihr Warenkorb</h1>
+			<div>
+			<form action="/zahlungsverarbeitung" method="post">
+			
+			<label for="barbie">Barbie als G&aumlrtnerin: </label>
+			<input type="number" id="barbie" min="0" max="99"> <br>
+			
+			<label for="johndeere">John Deere Rasenm&aumlher - Z530M: </label>
+			<input type="number" id="johndeere" min="0" max="99"> <br>
+	
+			<label for="cardowner">Karteninhaber: </label>
+			<input type="text" id="cardowner" required> <br>
+	
+			<label for="iban">IBAN: </label>
+			<input type="text" id="iban" required> <br><br>
+	
+			<button type="submit">Kauf abschlie&szligen</button>
+			</form>
+			
+			</div>
+	</body>
+</html>
